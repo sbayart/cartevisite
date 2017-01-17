@@ -1,17 +1,27 @@
+* {
+    box-sizing: border-box;
+    font-family: 'FreeSans', cursive;
+}
 body {
     width: 480px;
     height: 220px;
     margin: auto;
     box-shadow: 1px 1px 12px  #cdd5e2;
-    box-sizing: border-box;
 }
 
 header {
-    height: 135px;
+    height: 155px;
     padding: 20px;
 }
 h1{
     color: #393939;
+}
+figure {
+
+}
+h1 span {
+    float: right;
+    padding-right: 20px;
 }
 h2 {
     color: #8f8888;
@@ -19,6 +29,12 @@ h2 {
 footer {
     background-color: #cdd5e2;
     height: 65px;
+    padding-top: 20px;
+}
+footer span {
+    float: right;
+    padding-right: 20px;
+    color: #60656e;
 }
 h2 span{
     color: #cdd5e2;
@@ -26,4 +42,5 @@ h2 span{
 }
 a{
     padding: 20px;
+    color: #45aacc;
 }
