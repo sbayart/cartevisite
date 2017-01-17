@@ -3,18 +3,27 @@ body {
     height: 220px;
     margin: auto;
     box-shadow: 1px 1px 12px  #cdd5e2;
+    box-sizing: border-box;
 }
 
 header {
-    height: 155px;
+    height: 135px;
+    padding: 20px;
+}
+h1{
+    color: #393939;
 }
 h2 {
     color: #8f8888;
 }
-h3 {
-    color: #cdd5e2;
-}
 footer {
     background-color: #cdd5e2;
     height: 65px;
+}
+h2 span{
+    color: #cdd5e2;
+    font-size: 12px;
+}
+a{
+    padding: 20px;
 }
