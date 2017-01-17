@@ -1,0 +1,20 @@
+body {
+    width: 480px;
+    height: 220px;
+    margin: auto;
+    box-shadow: 1px 1px 12px  #cdd5e2;
+}
+
+header {
+    height: 155px;
+}
+h2 {
+    color: #8f8888;
+}
+h3 {
+    color: #cdd5e2;
+}
+footer {
+    background-color: #cdd5e2;
+    height: 65px;
+}
